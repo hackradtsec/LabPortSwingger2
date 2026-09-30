@@ -1,7 +1,7 @@
 # LabPortSwingger2
 Lab: Unprotected admin functionality with unpredictable URL
 
-Prática 1: Lab PortSwingger https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url
+Prática 2: Lab PortSwingger https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url
 
 1- O Painel Administrativo é possível acessar sem uma autenticação. Com isso, é possível fazer alterações nos usuários.
 
