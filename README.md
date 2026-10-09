@@ -6,7 +6,7 @@ Tipo de Vulnerabilidade: Controle de Acesso Ausente / Segurança por Obscuridade
 
 Severidade: Alta
 
-Prática 2: Lab PortSwingger https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url
+Lab: https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url
 
 **1. Diagnóstico da Vulnerabilidade**
 A aplicação tenta proteger o painel administrativo utilizando a técnica de segurança por obscuridade (Security through Obscurity), atribuindo uma URL imprevisível/aleatória ao painel em vez de implementar um controle de acesso robusto. Como a rota não possui mecanismo de autenticação ou autorização no lado do servidor, qualquer pessoa que descubra o endereço da URL consegue acessar a página e executar ações privilegiadas, como a exclusão de usuários cadastrados.
