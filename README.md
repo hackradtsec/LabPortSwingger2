@@ -24,7 +24,7 @@ Embora o caminho administrativo não estivesse exposto nos arquivos convencionai
 
     -> Ao inspecionar o código-fonte HTML da página principal, identificou-se na linha 50 um script JavaScript responsável por renderizar dinamicamente o link do painel para usuários elegíveis:
 
-adminPanelTag.setAttribute('href', '/admin-pjb8ss');
+adminPanelTag.setAttribute('href', '/admin-pjb8ss');.
 
     -> A URL imprevisível do painel administrativo foi exposta diretamente no código enviado ao navegador do cliente.
 
